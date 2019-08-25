@@ -1,0 +1,11 @@
+body {
+    background-image: url(http://www.transparenttextures.com/patterns/black-linen.png);
+}
+
+footer {
+        stop-color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 12px;
+    }
+}

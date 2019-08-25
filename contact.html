@@ -4,57 +4,67 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Jordan Ottaway</a>
-               <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">contact</a>
-                    </li>
-                  </ul>
-                  
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="p-3 mb-2 bg-info text-white">
+            <a class="text-white" href="index.html">Jordan Ottaway</a>
                 </div>
-              </nav>
+                <div class="clearfix">
+               <div class="float-right">
+                    <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                       <a class="nav-link" href="index.html">About</a>
+                    </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                 </ul>
+                </div>
+                </div>
+        </nav>
    
-    <div id="main_container" class="container">
-    <section class="main_section">
-        <h1>Contact</h1>
-
-        <form id="contact_form">
-            <ul>
-                <li>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="John Smith" required="required">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-                </li>
-                <li>
-                    <label form="message">Message</label>
-                    <input type="text" name="message" id="message" required="required">
-                </li>
-
-             </ul>
-             <input type="submit" name="submit">
-        </form>
-    </section>
+    <br>
+    <div class="container">
+        <div class="row">
+              <div class="col-lg-9">
+                    <div class="card bg-light mb-3" style="max-width: 1096px;">
+                          <div class="card-header">Contact Me</div>
+                             <div class="card-body">
+                                    <ul>
+                                        <li>
+                                          <label for="name">Name</label>
+                                             <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                                            </li>
+                                            <li>
+                                              <label for="email">Email</label>
+                                             <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                                            </li>
+                                            <li>
+                                             <label form="message">Message</label>
+                                             <input type="text" name="message" id="message" required="required">
+                                            </li>
+                            
+                                         </ul>
+                                         <input type="submit" name="submit">
+                                </div>
+                            </div>
+                 </div>
+            </div>
      </div>
-
+        
+        
+       
      <footer>
-         <div class="container">
-             &copy; Copyright 2019 Jordan Ottaway
-         </div>
-     </footer>
+            <nav class="navbar fixed-bottom navbar-light bg-dark">
+                <p>Copyright</p>
+         </nav>
+            </footer>
+           
    
 </body>
 </html>
